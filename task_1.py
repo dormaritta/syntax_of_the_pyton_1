@@ -1,4 +1,4 @@
-""" # типы данных и переменная
+# типы данных и переменная
 # 1) int  2) float 3) boolean 4) str 5) list 6) None
 
 value = None
@@ -25,14 +25,14 @@ print(f)
 list = [1, 2, 3, 4]
 print(list)
 list = ['1', '2', '3', 'hello']
-print(list) """
+print(list)
 
-""" list = ['1', '2', '3']
+list = ['1', '2', '3']
 col = ['hello', 1, 2, 4, 5, True]
 print(list)
-print(col) """
+print(col)
 
-""" # ввод и вывод данных
+# ввод и вывод данных
 # print() - вывод данных
 # input() - ввод данных
 
@@ -43,31 +43,31 @@ b = input()
 print(a, b)  # 1 вар-т
 print('{} {}'.format(a, b))  # 2 вар-т
 print(f'{a} {b}')  # 3 вар-т
- """
-""" # сумма двух строк
+
+# сумма двух строк
 print('Введите а')
 a = input()
 print('Введите b')
 b = input()
-print(a, '+', b, '=', a+b) """
+print(a, '+', b, '=', a+b)
 
-""" # сумма двух целых чисел
+# сумма двух целых чисел
 
 print('Введите а')
 a = int(input())
 print('Введите b')
 b = int(input())
-print(a, '+', b, '=', a+b) """
+print(a, '+', b, '=', a+b)
 
-""" # сумма двух нецелых чисел
+# сумма двух нецелых чисел
 
 print('Введите а')
 a = float(input())
 print('Введите b')
 b = float(input())
-print(a, '+', b, '=', a+b) """
+print(a, '+', b, '=', a+b)
 
-""" Арифметические операции
+Арифметические операции
 Важно и нужно, без них вы не напишете ни одной
 программы
 Если помните математику – проблем не будет
@@ -89,9 +89,9 @@ print(c)
 a = 3
 a += 5
 
-print(a) """
+print(a)
 
-""" Логические операции
+Логические операции
 >, >=, <, <=, ==, !=
 not, and, or – не путать с &, |,^
 Кое-что ещё: is, is not, in, not in
@@ -104,18 +104,18 @@ print(f)
 print(2 in f)
 
 is_odd = not f[0] % 2
-print(is_odd) """
+print(is_odd)
 
-""" # Управляющие конструкции: if, if-else
+# Управляющие конструкции: if, if-else
 
 a = int(input('a = '))
 b = int(input('b = '))
 if a > b:
     print(a)
 else:
-    print(b) """
+    print(b)
 
-""" # Управляющие конструкции: if-else
+# Управляющие конструкции: if-else
 
 username = input('Введите имя: ')
 if username == 'Даша':
@@ -125,9 +125,9 @@ elif username == 'Дора':
 elif username == 'ДоркиН':
     print('Доркин - супер')
 else:
-    print('Привет, ', username) """
+    print('Привет, ', username)
 
-""" # Управляющие конструкции: while, while-else
+# Управляющие конструкции: while, while-else
 
 original = 23
 inverted = 0
@@ -147,9 +147,9 @@ while original != 0:
 else:
     print('Пожалуй')
     print('хватит))')
-print(inverted) """
+print(inverted)
 
-""" # Управляющие конструкции: for
+# Управляющие конструкции: for
 
 for i in 1, 2, 3, 4, 5:
     print(i**2)
@@ -163,9 +163,9 @@ for i in r:
     print(i)
 
 for i in range(1, 10, 2):
-    print(i) """
+    print(i)
 
-""" # О СТРОКАХ
+# О СТРОКАХ
 
 text = 'съешь ещё этих мягких французских булок'
 print(len(text))                 # 39
@@ -188,11 +188,11 @@ print(text[2:9])                       # ешь ещё
 print(text[6:-18])                     # ещё этих мягких
 print(text[0:len(text):6])             # сеикакл
 print(text[::6])                       # сеикакл
-text = text[2:9] + text[-5] + text[:2] # """
+text = text[2:9] + text[-5] + text[:2] #
 
-""" help(int) """
+help(int)
 
-""" # Списки
+# Списки
 
 numbers = [1, 2, 3, 4, 5]
 print(numbers)
@@ -217,7 +217,7 @@ for e in colors:
     print(e*2) # redred greengreen blueblue
 colors.append('gray') # добавить в конец
 print(colors == ['red', 'green', 'blue', 'gray']) # True
-colors.remove('red') #del colors[0] # удалить элемент """
+colors.remove('red') #del colors[0] # удалить элемент
 
 # Функции
 
